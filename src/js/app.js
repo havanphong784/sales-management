@@ -1,0 +1,12 @@
+// hàm load các component
+async function loadComponent(id, path) {
+  const response = await fetch(path); // await chờ , fetch load component
+  const html = await response.text(); // chuyển thành text
+  document.getElementById(id).innerHTML = html; // thay html bằng component
+  console.log(document.getElementById(id));
+}
+
+// Khi trang load xong
+document.addEventListener("DOMContentLoaded", () => {
+  loadComponent("header", "./components/header.html");
+});
