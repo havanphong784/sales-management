@@ -5,6 +5,7 @@
   },
   "scripts": {
     "dev": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify"
+    "build": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify && npm run copy-files",
+    "copy-files": "mkdir -p docs && copy src\\index.html docs\\index.html && copy src\\components docs\\components && copy src\\pages docs\\pages && copy src\\js docs\\js && copy dist\\output.css docs\\output.css"
   }
 }

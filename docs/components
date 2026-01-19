@@ -1,0 +1,30 @@
+<header class="text-[12px] text-white w-full flex-1 flex px-8 py-4 justify-between items-center bg-bg">
+    <div class="left flex align-center">
+        <div class="menu w-10 p-2 flex rounded-2xl border border-border">
+            <img src="../../public/icons/menu-svgrepo-com.svg" alt="" class="w-full opacity-75">
+        </div>
+        <div class="font-logo font-semibold text-primary text-[24px] ml-8 content-center uppercase">
+            Sales
+        </div>
+    </div>
+    <div class="search flex ml-8 p-1.5 rounded-2xl border border-border opacity-75 bg-second">
+        <input class="border-none w-52 text-black" placeholder="Nhập vào đây..." type="text">
+        <button class="ml-1 search-text py-1 px-2 rounded-xl bg-primary">Tìm kiếm.</button>
+    </div>
+    <div class="left flex justify-center items-center h-8">
+        <div class="flex w-8 h-8 p-2 align-center justify-center rounded-full border border-border">
+            <img class="opacity-75" src="../../public/icons/dark-mode-night-moon-svgrepo-com.svg" class="">
+        </div>
+        <div class="flex mx-3 w-8 h-8 p-1 align-center justify-center rounded-full border border-border">
+            <img class="opacity-75" src="../../public/icons/notification-12-svgrepo-com.svg" alt="" class="">
+        </div>
+        <div class="h-10 flex text-[16px] font-medium items-center">
+            <img src="../../public/icons/user-svgrepo-com.svg"
+                class="p-1 rounded-full border-border border w-8 mr-1 aspect-square opacity-75">
+            <div class="user-name m-2 text-primary">Phong Ha</div>
+        </div>
+
+    </div>
+</header><div class="sliderbar">
+    
+</div>
