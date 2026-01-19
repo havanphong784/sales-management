@@ -65,6 +65,7 @@
       rgba(59, 183, 114, 0.84) 282.72%
     );
     scrollbar-width: none;
+    animation: slideIn 0.3s ease;
   }
   .sidebar__avatar {
     border-radius: 110px;
@@ -100,6 +101,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    padding: 16px 35px;
   }
   .sidebar__card--text {
     color: #fff;
@@ -121,5 +123,13 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
   }
 }
