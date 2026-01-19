@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/output.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="main flex h-full w-full">
-        <div id="sidebar" class="h-full"></div>
-        <div id="header" class="flex-1"></div>
+    <div id="app" class="flex h-screen w-screen overflow-auto">
+        <div id="sidebar" class="h-screen"></div>
+        <main id="main" class="flex-1 h-screen flex-col flex">
+            <header class="w-full">
+                <div id="header" class="w-full">
+                </div>
+            </header>
+            <div class="flex-1 overflow-y-scroll">
+                <div id="content"></div>
+            </div>
+        </main>
     </div>
     <script src="./src/scripts/app.js"></script>
 </body>
