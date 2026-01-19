@@ -1,11 +1,27 @@
 {
+  "name": "sales-management",
+  "version": "1.0.0",
+  "description": "Website quản lý bán hàng",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/havanphong784/sales-management.git"
+  },
+  "keywords": [
+    "sales",
+    "management",
+    "e-commerce"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
     "tailwindcss": "^4.1.18"
   },
   "scripts": {
     "dev": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify",
-    "copy-html": "tailwindcss -i ./src/css/input.css -o ./docs/output.css --minify && xcopy src\\index.html docs\\ /Y && xcopy src\\components docs\\components\\ /Y /S && xcopy src\\pages docs\\pages\\ /Y /S && xcopy src\\js docs\\js\\ /Y /S"
+    "build": "tailwindcss -i ./src/css/input.css -o ./docs/output.css --minify",
+    "copy-html": "tailwindcss -i ./src/css/input.css -o ./docs/output.css --minify",
+    "deploy": "npm run build && npm run copy-html"
   }
 }

@@ -27,3 +27,7 @@ Thumbs.db
 temp/
 tmp/
 *.tmp
+
+# Build directories
+docs/output.css
+dist/
