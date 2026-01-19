@@ -20,7 +20,8 @@
   },
   "scripts": {
     "dev": "tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/css/input.css -o ./docs/output.css --minify",
+    "build": "tailwindcss -i ./src/css/input.css -o ./docs/output.css --minify && npm run copy-assets",
+    "copy-assets": "xcopy src\\icons docs\\icons\\ /Y /I /S && xcopy src\\images docs\\images\\ /Y /I /S",
     "copy-html": "tailwindcss -i ./src/css/input.css -o ./docs/output.css --minify",
     "deploy": "npm run build && npm run copy-html"
   }
