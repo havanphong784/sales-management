@@ -1,28 +1,24 @@
-<header class="text-[12px] text-white w-full flex-1 flex px-8 py-4 justify-between items-center bg-bg">
-    <div class="left flex align-center">
-        <div class="menu w-10 p-2 flex rounded-2xl border border-border">
-            <img src="./icons/menu-svgrepo-com.svg" alt="" class="w-full opacity-75">
-        </div>
-        <div class="font-logo font-semibold text-primary text-[24px] ml-8 content-center uppercase">
-            Sales
+<header class="header flex justify-around items-center">
+    <div class="header__title flex flex-col justify-center items-start">
+        <div class="header__title--top">Welcome Back,</div>
+        <div class="header__title--bot">Let’s Check your sales</div>
+    </div>
+    <div class="header__search flex items-center rounded-lg w-83.75 h-12.25">
+        <div class="m-6.25 flex gap-x-3">
+            <img src="./src/images/icons/searchnormal1.svg" alt="" class="w-5 aspect-square">
+            <input class="header__search--text flex-1 focus:outline-none" type="text" placeholder="Search"></input>
         </div>
     </div>
-    <div class="search flex ml-8 p-1.5 rounded-2xl border border-border opacity-75 bg-second">
-        <input class="border-none w-52 text-black" placeholder="Nhập vào đây..." type="text">
-        <button class="ml-1 search-text py-1 px-2 rounded-xl bg-primary">Tìm kiếm.</button>
+    <div class="header__btn flex gap-x-1.25 justify-center items-center">
+        <img src="./src/images/icons/flash.svg" alt="" class="w-7.5 aspect-square">
+        <div class="header__btn--text">Upgrade Now</div>
     </div>
-    <div class="left flex justify-center items-center h-8">
-        <div class="flex w-8 h-8 p-2 align-center justify-center rounded-full border border-border">
-            <img class="opacity-75" src="./icons/dark-mode-night-moon-svgrepo-com.svg" class="">
+    <div class="flex gap-x-11">
+        <div class="w-9.5 aspect-square">
+            <img src="./src/images/icons/setting.svg" alt="">
         </div>
-        <div class="flex mx-3 w-8 h-8 p-1 align-center justify-center rounded-full border border-border">
-            <img class="opacity-75" src="./icons/notification-12-svgrepo-com.svg" alt="" class="">
+        <div class="w-9.5 aspect-square">
+            <img src="./src/images/icons/notification.svg" alt="">
         </div>
-        <div class="h-10 flex text-[16px] font-medium items-center">
-            <img src="./icons/user-svgrepo-com.svg"
-                class="p-1 rounded-full border-border border w-8 mr-1 aspect-square opacity-75">
-            <div class="user-name m-2 text-primary">Phong Ha</div>
-        </div>
-
     </div>
 </header>
