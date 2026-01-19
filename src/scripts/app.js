@@ -4,3 +4,4 @@ async function addComponent(id, patch) {
 }
 
 addComponent("header", "./src/components/header.html");
+addComponent("sidebar", "./src/components/sidebar.html");

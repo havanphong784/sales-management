@@ -55,4 +55,71 @@
     font-weight: 500;
     line-height: normal;
   }
+  /* SIDEBAR */
+  .sidebar {
+    border-radius: 25px;
+    background: linear-gradient(
+      9deg,
+      #24804d 1.53%,
+      rgba(0, 0, 0, 0) 282.72%,
+      rgba(59, 183, 114, 0.84) 282.72%
+    );
+    scrollbar-width: none;
+  }
+  .sidebar__avatar {
+    border-radius: 110px;
+    background: url(../images/icons/Ellipse1.svg) lightgray 50% / cover
+      no-repeat;
+  }
+  .sidebar__info--name {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sidebar__info--rule {
+    color: #cfcfcf;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .sidebar__nav {
+    scrollbar-width: auto;
+  }
+  .sidebar__nav--item {
+    width: 100%;
+    display: flex;
+    column-gap: 11px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sidebar__card--text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sidebar__card {
+    border-radius: 6px;
+    border: 1px dashed #fff;
+    background: rgba(187, 187, 187, 0.15);
+  }
+  .sidebar__btn--text {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
