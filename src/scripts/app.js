@@ -14,3 +14,5 @@ function openSidebar() {
   sidebar.style.display = "block";
   document.getElementById("menu-btn").style.display = "none";
 }
+
+addComponent("content", "./src/pages/dashboard.html");

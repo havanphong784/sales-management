@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <div id="app" class="flex h-screen w-screen overflow-auto">
+    <div id="app" class="flex h-screen w-screen overflow-hidden">
         <div id="sidebar" class="h-screen"></div>
-        <main id="main" class="flex-1 h-screen flex-col flex">
+        <main id="main" class="flex-1 h-screen flex-col flex overflow-hidden">
             <header class="w-full">
                 <div id="header" class="w-full">
                 </div>
             </header>
-            <div class="flex-1 overflow-y-scroll">
-                <div id="content"></div>
+            <div class="flex-1 overflow-y-scroll scrollbar-hide w-full">
+                <div id="content" class="w-full"></div>
             </div>
         </main>
     </div>
